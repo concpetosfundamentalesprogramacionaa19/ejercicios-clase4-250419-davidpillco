@@ -15,7 +15,8 @@ public class Principal {
         
     // Declaracion de variables
     int mensajes;
-    int tarifa;
+    double mensajesad;
+    double mensajesad2;
     double total=0;
     double totaliva;
     double totalpagar;
@@ -28,14 +29,18 @@ public class Principal {
     // Evaluacion para calcular el total a pagar 
     
     
-    if( mensajes >= 0 && mensajes <= 40){
+    if( mensajes > 0 && mensajes <= 40){
         total = 3;
     }
-    if (mensajes >= 40 && mensajes <= 200){
-        total = (mensajes *0.05)+ 3 ;
+    if (mensajes > 40 && mensajes <= 200){
+        mensajesad = mensajes - 40;
+        total = (mensajesad *0.05)+ 3 ;
     }
     if (mensajes > 200){
-        total = (mensajes *0.10)+3 ;
+        mensajesad = (mensajes-40)*0.05;
+        mensajesad2 = (mensajes - 200)*0.10;
+        total = mensajesad + mensajesad2 + 3;
+        
     }
     
     // Calcular el iva
