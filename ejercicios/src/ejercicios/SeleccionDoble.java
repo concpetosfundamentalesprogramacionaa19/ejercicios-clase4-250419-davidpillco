@@ -15,7 +15,7 @@ import paquetedos.Operacion;
 public class SeleccionDoble {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        //documentacion
+        // Declarando las varialbes
         
         int calificacion;
         int calificaciondos;

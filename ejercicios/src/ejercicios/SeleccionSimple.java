@@ -15,12 +15,14 @@ import paquetedos.*;
 public class SeleccionSimple {
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
-        //documentacion
+        
+        // Declarando las varialbles
         
         int calificacion;
         int calificaciondos;
         
         // Pidiendo los datos
+        
         System.out.println("Ingrese la nota 1 \n");
         calificacion = entrada.nextInt();   
         
