@@ -13,19 +13,19 @@ public class Principal {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
-    //Declaracion de variables
+    // Declaracion de variables
     int mensajes;
     int tarifa;
     double total=0;
     double totaliva;
     double totalpagar;
     
-    //Pedir el numero de mensajes 
+    // Pedir el numero de mensajes 
     
     System.out.println ("Ingrese la cantidad de mensajes que ha enviado: ");
     mensajes=entrada.nextInt();
     
-    //Evaluacion para calcular el total a pagar 
+    // Evaluacion para calcular el total a pagar 
     
     
     if( mensajes >= 0 && mensajes <= 40){
